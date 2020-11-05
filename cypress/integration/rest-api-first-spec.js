@@ -3,6 +3,7 @@
 context('REST API FIRST', () => {
   
   it('REST API', () => {
+    /*Just a comment to try build after commit*/
     cy
       .request('GET', '/posts')
       .then((response) => {
